@@ -4,6 +4,15 @@ type HeaderLinkType = {
     name: string
 }
 
+type ResturantDataType = {
+    id:number;
+    imageUrl :string;
+    name: string;
+    type:string;
+    location:string;
+    stars:number;
+}
+
 type registerFormType = {
     type: string;
     fullName: string;
@@ -18,4 +27,4 @@ type registerSubmitType = {
     image: FileList;
 }
 
-export type { HeaderLinkType, registerFormType,registerSubmitType }
+export type { HeaderLinkType, registerFormType,registerSubmitType,ResturantDataType }
