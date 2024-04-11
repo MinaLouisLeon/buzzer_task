@@ -56,4 +56,8 @@ const gallaryLinks:string[] = [
     '/G1.jpg','/G2.png','/G3.png','/G4.jpg'
 ]
 
-export {HeaderLinks,ResturantData,gallaryLinks}
+const sideMenuItems:string[] = [
+    "Offers","Featured Products","Suppliers","Articles","Image Gallery","FAQs","Settings","About Us","Mission & Vision","Contact Us","Privacy Policy","Terms & Conditions"
+]
+
+export {HeaderLinks,ResturantData,gallaryLinks,sideMenuItems}
