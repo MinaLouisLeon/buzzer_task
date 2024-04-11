@@ -11,7 +11,7 @@ import { auth, db, storage } from "@/firebaseConfig";
 import { useRouter } from "next/navigation";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { doc, updateDoc } from "firebase/firestore";
-const page = () => {
+const RegisterSubmit = () => {
     const router = useRouter();
     const [userUid, setUserUid] = useState("");
     const [downloadUrl, setDownloadUrl] = useState("");
@@ -140,4 +140,4 @@ const page = () => {
     )
 }
 
-export default page
+export default RegisterSubmit

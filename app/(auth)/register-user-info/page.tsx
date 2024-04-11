@@ -8,7 +8,7 @@ import { SubmitHandler, useForm } from 'react-hook-form';
 import { registerFormType } from '@/types';
 import { doc, setDoc } from "firebase/firestore";
 import { useRouter } from 'next/navigation';
-const page = () => {
+const RegisterUserInfo = () => {
     const router = useRouter();
     const [userUid, setUserUid] = useState("");
     const [phoneNumber, setPhoneNumber] = useState("");
@@ -143,4 +143,4 @@ const page = () => {
     )
 }
 
-export default page
+export default RegisterUserInfo
